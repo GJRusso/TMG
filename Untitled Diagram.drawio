@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-18T15:58:32.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="XFRuYdRgtW92jlOIedvw" version="14.9.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-18T18:01:53.528Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="2kcOtQzXHe-H000HiMTb" version="14.9.2" type="github" pages="4">
   <diagram id="b8_TSSKg8egfT6IC5Q3B" name="Objetos">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -33,10 +33,7 @@
         <mxCell id="Ngph-VFAuc6McCXTukuA-0" value="&lt;b&gt;Devolución a proveedor&lt;/b&gt;&lt;br&gt;(Mov. Salida)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Origen&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp;: Deposito&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Destino: Proveedor&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Referencia: Alquiler a proveedor&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="UU99kKh83RRp0si5JTKh-1" vertex="1">
           <mxGeometry x="900" y="80" width="180" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Ngph-VFAuc6McCXTukuA-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="UU99kKh83RRp0si5JTKh-1" source="Ngph-VFAuc6McCXTukuA-2" target="Ngph-VFAuc6McCXTukuA-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ngph-VFAuc6McCXTukuA-2" value="&lt;b&gt;Alquiler a proveedor&lt;/b&gt;&lt;br&gt;(Mov Entrada)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Origen : Proveedor&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Destino: Deposito&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Referencia: Pedido de Alquiler&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="UU99kKh83RRp0si5JTKh-1" vertex="1">
+        <mxCell id="Ngph-VFAuc6McCXTukuA-2" value="&lt;b&gt;Alquiler a proveedor&lt;br&gt;&lt;/b&gt;#268&lt;br&gt;(Mov Entrada)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Origen : Proveedor&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Destino: Deposito&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Referencia: Pedido de Alquiler&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="UU99kKh83RRp0si5JTKh-1" vertex="1">
           <mxGeometry x="230" y="85" width="190" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Ngph-VFAuc6McCXTukuA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.018;entryY=0.462;entryDx=0;entryDy=0;entryPerimeter=0;" parent="UU99kKh83RRp0si5JTKh-1" source="Ngph-VFAuc6McCXTukuA-5" target="Ngph-VFAuc6McCXTukuA-2" edge="1">
@@ -50,10 +47,10 @@
         <mxCell id="Ngph-VFAuc6McCXTukuA-5" value="&lt;b&gt;Pedido de alquiler&lt;/b&gt;&lt;br&gt;(Pedido-Compras)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="UU99kKh83RRp0si5JTKh-1" vertex="1">
           <mxGeometry x="30" y="116.25" width="150" height="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="Ngph-VFAuc6McCXTukuA-6" value="&lt;b&gt;Devolucion de alquiler&lt;br&gt;&lt;/b&gt;(Mov. Entrada)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Origen : Proveedor&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Destino: Deposito&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Referencia: Envió a Reparación&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="UU99kKh83RRp0si5JTKh-1" vertex="1">
+        <mxCell id="Ngph-VFAuc6McCXTukuA-6" value="&lt;b&gt;Devolucion de alquiler&lt;br&gt;&lt;/b&gt;(Mov. Entrada)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Origen : Proveedor&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Destino: Cliente&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="UU99kKh83RRp0si5JTKh-1" vertex="1">
           <mxGeometry x="670" y="102.5" width="180" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="Ngph-VFAuc6McCXTukuA-7" value="&lt;b&gt;Alquiler&lt;/b&gt;&lt;br&gt;(Mov. Salida)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Origen&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp;: Deposito&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Destino: Proveedor&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Referencia: Ord. Reparacion&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="UU99kKh83RRp0si5JTKh-1" vertex="1">
+        <mxCell id="Ngph-VFAuc6McCXTukuA-7" value="&lt;b&gt;Alquiler&lt;/b&gt;&lt;br&gt;(Mov. Salida)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Origen&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp;: Deposito&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Destino: Cliente&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="UU99kKh83RRp0si5JTKh-1" vertex="1">
           <mxGeometry x="460" y="107.5" width="150" height="85" as="geometry" />
         </mxCell>
         <mxCell id="Ngph-VFAuc6McCXTukuA-8" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.01;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="UU99kKh83RRp0si5JTKh-1" source="Ngph-VFAuc6McCXTukuA-7" target="Ngph-VFAuc6McCXTukuA-6" edge="1">
@@ -70,26 +67,72 @@
       <root>
         <mxCell id="UE_UC31S6Wi6J-l9XYea-0" />
         <mxCell id="UE_UC31S6Wi6J-l9XYea-1" parent="UE_UC31S6Wi6J-l9XYea-0" />
-        <mxCell id="UE_UC31S6Wi6J-l9XYea-3" value="&lt;b&gt;Recepción&amp;nbsp;de&amp;nbsp; reparación&lt;/b&gt;&lt;br&gt;(Mov. Entrada)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Origen : Deposito&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Destino: Proveedor&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Referencia: Cotización reparación&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 11px&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Obs: &quot;Se gestiona stock de origen a destino&quot;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="UE_UC31S6Wi6J-l9XYea-1" vertex="1">
-          <mxGeometry x="800" y="33" width="200" height="133.75" as="geometry" />
+        <mxCell id="UE_UC31S6Wi6J-l9XYea-3" value="&lt;b&gt;Recepción&amp;nbsp;de&amp;nbsp; reparación&lt;br&gt;&lt;/b&gt;#267&lt;br&gt;(Mov. Entrada)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Origen : Proveedor&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Destino: Deposito&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Referencia: Cotización reparación&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 11px&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Obs: &quot;Se gestiona stock de origen a destino&quot;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="UE_UC31S6Wi6J-l9XYea-1" vertex="1">
+          <mxGeometry x="800" y="31.93" width="200" height="137" as="geometry" />
         </mxCell>
         <mxCell id="ez8-ZB6mri_OmdBjOkzV-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UE_UC31S6Wi6J-l9XYea-1" source="UE_UC31S6Wi6J-l9XYea-4" target="UE_UC31S6Wi6J-l9XYea-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UE_UC31S6Wi6J-l9XYea-4" value="&lt;b&gt;Envío&amp;nbsp;a reparación&lt;/b&gt;&lt;br&gt;(Mov. Salida)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Origen&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp;: Proveedor&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Destino: Deposito&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Referencia: Pedido de reparacion&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; text-align: justify&quot;&gt;Obs: &quot;Se gestiona stock de origen a destino&quot;&lt;/span&gt;&lt;span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="UE_UC31S6Wi6J-l9XYea-1" vertex="1">
+        <mxCell id="UE_UC31S6Wi6J-l9XYea-4" value="&lt;b&gt;Envío&amp;nbsp;a reparación&lt;br&gt;&lt;/b&gt;#262&lt;br&gt;(Mov. Salida)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Origen&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp;: Deposito&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Destino: Proveedor&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Referencia: Pedido de reparacion&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; text-align: justify&quot;&gt;Obs: &quot;Se gestiona stock de origen a destino&quot;&lt;/span&gt;&lt;span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="UE_UC31S6Wi6J-l9XYea-1" vertex="1">
           <mxGeometry x="360" y="30.810000000000002" width="200" height="138.12" as="geometry" />
         </mxCell>
         <mxCell id="ez8-ZB6mri_OmdBjOkzV-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UE_UC31S6Wi6J-l9XYea-1" source="UE_UC31S6Wi6J-l9XYea-6" target="UE_UC31S6Wi6J-l9XYea-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UE_UC31S6Wi6J-l9XYea-6" value="&lt;b&gt;Pedido de reparación&lt;/b&gt;&lt;br&gt;(Pedido-Compras)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="UE_UC31S6Wi6J-l9XYea-1" vertex="1">
+        <mxCell id="UE_UC31S6Wi6J-l9XYea-6" value="&lt;b&gt;Pedido de reparación&lt;br&gt;&lt;/b&gt;#265&lt;br&gt;(Pedido-Compras)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="UE_UC31S6Wi6J-l9XYea-1" vertex="1">
           <mxGeometry x="160" y="71.12" width="150" height="57.5" as="geometry" />
         </mxCell>
         <mxCell id="ez8-ZB6mri_OmdBjOkzV-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UE_UC31S6Wi6J-l9XYea-1" source="UE_UC31S6Wi6J-l9XYea-8" target="UE_UC31S6Wi6J-l9XYea-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UE_UC31S6Wi6J-l9XYea-8" value="&lt;b&gt;Cotización reparación&lt;/b&gt;&lt;br&gt;(Cotización - Ventas)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Referencia: Envío a&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;reparación&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="UE_UC31S6Wi6J-l9XYea-1" vertex="1">
-          <mxGeometry x="600" y="64.87" width="170" height="70" as="geometry" />
+        <mxCell id="UE_UC31S6Wi6J-l9XYea-8" value="&lt;b&gt;Cotización reparación&lt;br&gt;&lt;/b&gt;#266&lt;br&gt;(Cotización - Ventas)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Referencia: Envío a&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;reparación&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="UE_UC31S6Wi6J-l9XYea-1" vertex="1">
+          <mxGeometry x="600" y="57.300000000000004" width="170" height="85.13" as="geometry" />
+        </mxCell>
+        <mxCell id="ez8-ZB6mri_OmdBjOkzV-3" value="&lt;b&gt;Recepción&amp;nbsp;de&amp;nbsp; reparación&lt;br&gt;&lt;/b&gt;#267&lt;br&gt;(Mov. Entrada)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Origen : Proveedor&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Destino: Deposito&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Referencia: Cotización reparación&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 11px&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Obs: &quot;Se gestiona stock de origen a destino&quot;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="UE_UC31S6Wi6J-l9XYea-1">
+          <mxGeometry x="800" y="280" width="200" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="ez8-ZB6mri_OmdBjOkzV-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="UE_UC31S6Wi6J-l9XYea-1" source="ez8-ZB6mri_OmdBjOkzV-5" target="ez8-ZB6mri_OmdBjOkzV-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="349" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ez8-ZB6mri_OmdBjOkzV-5" value="&lt;b&gt;Envío&amp;nbsp;a reparación&lt;br&gt;&lt;/b&gt;#262&lt;br&gt;(Mov. Salida)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Origen&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp;: Deposito&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Destino: Proveedor&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Referencia: Pedido de reparacion&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; text-align: justify&quot;&gt;Obs: &quot;Se gestiona stock de origen a destino&quot;&lt;/span&gt;&lt;span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="UE_UC31S6Wi6J-l9XYea-1">
+          <mxGeometry x="460" y="280" width="200" height="138.12" as="geometry" />
+        </mxCell>
+        <mxCell id="ez8-ZB6mri_OmdBjOkzV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UE_UC31S6Wi6J-l9XYea-1" source="ez8-ZB6mri_OmdBjOkzV-7" target="ez8-ZB6mri_OmdBjOkzV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ez8-ZB6mri_OmdBjOkzV-7" value="&lt;b&gt;Pedido de reparación&lt;br&gt;&lt;/b&gt;#265&lt;br&gt;(Pedido-Compras)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="UE_UC31S6Wi6J-l9XYea-1">
+          <mxGeometry x="165" y="320.31" width="150" height="57.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="n6yQFvtgSzPSHOF0cB6u" name="Disponibilización">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="f_dKCLh24sFphfd2hH2T-0" />
+        <mxCell id="f_dKCLh24sFphfd2hH2T-1" parent="f_dKCLh24sFphfd2hH2T-0" />
+        <mxCell id="r48xlvRdUSF8sC9Kp0lY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="f_dKCLh24sFphfd2hH2T-1" source="r48xlvRdUSF8sC9Kp0lY-0" target="r48xlvRdUSF8sC9Kp0lY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r48xlvRdUSF8sC9Kp0lY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;" edge="1" parent="f_dKCLh24sFphfd2hH2T-1" source="r48xlvRdUSF8sC9Kp0lY-0" target="r48xlvRdUSF8sC9Kp0lY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r48xlvRdUSF8sC9Kp0lY-0" value="&lt;b&gt;Compra&lt;br&gt;&lt;/b&gt;(Mov. Entrada)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Origen : Proveedor&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Destino: Deposito (Cuarentena)&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Referencia:&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="f_dKCLh24sFphfd2hH2T-1">
+          <mxGeometry x="40" y="40" width="170" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="r48xlvRdUSF8sC9Kp0lY-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;" edge="1" parent="f_dKCLh24sFphfd2hH2T-1" source="r48xlvRdUSF8sC9Kp0lY-1" target="r48xlvRdUSF8sC9Kp0lY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r48xlvRdUSF8sC9Kp0lY-1" value="&lt;b&gt;Revisión&amp;nbsp;&lt;/b&gt;&lt;br&gt;(Mov. Entrada)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Origen : Deposito (Cuarentena)&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Destino: Deposito Central)&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 11px&quot;&gt;Referencia: Compra&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="f_dKCLh24sFphfd2hH2T-1">
+          <mxGeometry x="280" y="40" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="r48xlvRdUSF8sC9Kp0lY-3" value="&lt;ol&gt;&lt;li&gt;10 Mat A&amp;nbsp;&lt;/li&gt;&lt;li&gt;30 Mat B&lt;/li&gt;&lt;li&gt;50 Mat C&lt;/li&gt;&lt;li&gt;1&amp;nbsp; &amp;nbsp;Mat D&lt;/li&gt;&lt;li&gt;3&amp;nbsp; &amp;nbsp;Mat E&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="f_dKCLh24sFphfd2hH2T-1">
+          <mxGeometry x="58" y="170" width="133" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r48xlvRdUSF8sC9Kp0lY-5" value="&lt;ol&gt;&lt;li&gt;10 Mat A NOK =&amp;gt; Rechazado&lt;/li&gt;&lt;li&gt;30 Mat B OK&amp;nbsp;&amp;nbsp; &amp;nbsp;=&amp;gt; Aceptado&lt;/li&gt;&lt;li&gt;50 Mat C OK&amp;nbsp; &amp;nbsp;=&amp;gt; Aceptado&lt;/li&gt;&lt;li&gt;1&amp;nbsp; &amp;nbsp;Mat D OK&amp;nbsp; &amp;nbsp;=&amp;gt; Aceptado&amp;nbsp;&lt;/li&gt;&lt;li&gt;3&amp;nbsp; &amp;nbsp;Mat E NOK =&amp;gt; Rechazado&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="f_dKCLh24sFphfd2hH2T-1">
+          <mxGeometry x="250" y="180" width="240" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
